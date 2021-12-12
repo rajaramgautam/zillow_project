@@ -40,6 +40,8 @@ This section after all findings
 |11|  garage_area       | Area of Garage                                     | 27363 non-null | int64  |
 |12 |  transactiondate.  | Transaction date for the property                 | 27363 non-null | int64  |
 
+For Full Data Dictionary for Zillow database that we are using here, please follow the ling below.
+
 
 # Project Specifications
 
