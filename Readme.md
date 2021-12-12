@@ -12,7 +12,7 @@
 - To know the county and state of the properties that had transaction in 2017.
 
 # Executive Summary
-This section after all findings
+After modeling the zillow data using five features (bathrooms, bedrooms, total living area, lot size, pools and garage area), the Polynomial Model with degree 2 produced the best results with RMSE values of 212731, 215129 and 216497 for train, test and train_validate dataset. It is improvement by 12.5% over the baseline model (when comparing training data set). It was 11.02 % for train_validate data set and 11.59% for test dataset. Therefore, these models do show that they could be used to produce a prediction for home values; however, the error is still high at over $215,129 RSME. I would recommed further cleaning data for a reliable predictor for tax value in order to use this model.
 
 
 # Deliverables
@@ -21,10 +21,13 @@ This section after all findings
 - The report will summarize the findings about the drivers of tax value of the single family residential properties with suitable visualizations.
 
 # Intial Questions
--
--
--
--
+- Is there positive correlation between tax value of single family residential property and total living area?
+- Is there positive correlation between tax value of single family residential property and bathrooms?
+- Is there positive correlation between tax value of single family residential property and bedrooms?
+- Is there positive correlation between tax value of single family residential property and pools?
+- Is there positive correlation between tax value of single family residential property and garage area?
+- Is there positive correlation between tax value of single family residential property and lot size?
+
 
 # Data dictionary
 
@@ -42,7 +45,7 @@ This section after all findings
 |9 |  county            | County Name                                        | 27363 non-null | object |
 |10|  state             | State Name                                         | 27363 non-null | object |
 |11|  garage_area       | Area of Garage                                     | 27363 non-null | int64  |
-|12 |  transactiondate.  | Transaction date for the property                 | 27363 non-null | int64  |
+|12|  transactiondate.  | Transaction date for the property                  | 27363 non-null | int64  |
 
 For Full Data Dictionary for Zillow database that we are using here, please follow the ling below.
 
@@ -73,7 +76,7 @@ For Full Data Dictionary for Zillow database that we are using here, please foll
 
 # Model & Evaluate
 - The following models were used:
- - Baseline (using mean) # TBA
+ - Baseline (using mean)
  - Ordinary Least Squares
  - LASSO + LARS
  - Generalized Linear Model
@@ -92,6 +95,6 @@ You will need your own env file with database credentials along with all the nec
 - Add your own env file to your directory. (user, password, host)
 - Run the final_report.ipynb notebook
 
-# Conclusion (TBA)
-- All of the models were relatively close, but the Polynomial 3rd degree regression model produced the best results with a 20% improvement over the mean baseline model (comparing validation data). Therefore, these models do show that they could be used to produce a prediction for home values; however, the error is still high at over number RSME. Additional refining would need to be done in order to use this model as a reliable predictor of home values.
+# Conclusion
+After modeling the zillow data using five features (bathrooms, bedrooms, total living area, lot size, pools and garage area), the Polynomial Model with degree 2 produced the best results with RMSE values of 212731, 215129 and 216497 for train, test and train_validate dataset. It is improvement by 12.5% over the baseline model (when comparing training data set). It was 11.02 % for train_validate data set and 11.59% for test dataset. Therefore, these models do show that they could be used to produce a prediction for home values; however, the error is still high at over $215,129 RSME. I would recommed further cleaning data for a reliable predictor for tax value in order to use this model.
 
