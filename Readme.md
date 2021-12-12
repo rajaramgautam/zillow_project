@@ -21,6 +21,10 @@ This section after all findings
 - The report will summarize the findings about the drivers of tax value of the single family residential properties with suitable visualizations.
 
 # Intial Questions
+-
+-
+-
+-
 
 # Data dictionary
 
@@ -75,6 +79,18 @@ For Full Data Dictionary for Zillow database that we are using here, please foll
  - Generalized Linear Model
  - Polynomial 2nd Degree
  - Polynomial 3rd Degree
+
+# Details on FIPS Code
+https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/home/?cid=nrcs143_013697
+
+
+### Reproduce My Project
+
+You will need your own env file with database credentials along with all the necessary files listed below to run my final project notebook. 
+- Read this README.md
+- Download the wrangle.py, aquire.py, prepare.py, explore.py, evaluate.py, and final.ipynb files into your working directory
+- Add your own env file to your directory. (user, password, host)
+- Run the final_report.ipynb notebook
 
 # Conclusion (TBA)
 - All of the models were relatively close, but the Polynomial 3rd degree regression model produced the best results with a 20% improvement over the mean baseline model (comparing validation data). Therefore, these models do show that they could be used to produce a prediction for home values; however, the error is still high at over number RSME. Additional refining would need to be done in order to use this model as a reliable predictor of home values.
