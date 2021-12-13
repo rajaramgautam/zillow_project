@@ -12,7 +12,7 @@
 - To know the county and state of the properties that had transaction in 2017.
 
 # Executive Summary
-After modeling the zillow data using five features (bathrooms, bedrooms, total living area, lot size, pools and garage area), the Polynomial Model with degree 2 produced the best results with RMSE values of 212731, 215129 and 216497 for train, test and train_validate dataset. It is improvement by 12.5% over the baseline model (when comparing training data set). It was 11.02 % for train_validate data set and 11.59% for test dataset. Therefore, these models do show that they could be used to produce a prediction for home values; however, the error is still high at over $215,129 RSME. I would recommed further cleaning data for a reliable predictor for tax value in order to use this model.
+After modeling the zillow data using five features (bathrooms, bedrooms, total living area, lot size, pools and garage area), the Polynomial Model with degree 2 produced the best results with RMSE values of 208506, 211676 and 213560 for train, test and validate dataset. It is improvement by 14.3% over the baseline model (when comparing training data set). It was improved by 13.21 % for validate datadet. Therefore, these models do show that they could be used to produce a prediction for home values; however, the error is still high at over $211,676 RSME. I would recommed further cleaning data for a reliable predictor for tax value in order to use this model.
 
 
 # Deliverables
@@ -97,5 +97,5 @@ You will need your own env file with database credentials along with all the nec
 - Run the final_report.ipynb notebook
 
 # Conclusion
-After modeling the zillow data using five features (bathrooms, bedrooms, total living area, lot size, pools and garage area), the Polynomial Model with degree 2 produced the best results with RMSE values of 212731, 215129 and 216497 for train, test and train_validate dataset. It is improvement by 12.5% over the baseline model (when comparing training data set). It was 11.02 % for train_validate data set and 11.59% for test dataset. Therefore, these models do show that they could be used to produce a prediction for home values; however, the error is still high at over $215,129 RSME. I would recommed further cleaning data for a reliable predictor for tax value in order to use this model.
+After modeling the zillow data using five features (bathrooms, bedrooms, total living area, lot size, pools and garage area), the Polynomial Model with degree 2 produced the best results with RMSE values of 208506, 211676 and 213560 for train, test and validate dataset.  It is improvement by 14.3% over the baseline model (when comparing training data set). It was improved by 13.21 % for validate datadet. Therefore, these models do show that they could be used to produce a prediction for home values; however, the error is still high at over $215,129 RSME. I would recommed further cleaning data for a reliable predictor for tax value in order to use this model.
 
