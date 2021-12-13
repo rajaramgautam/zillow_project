@@ -27,7 +27,7 @@ After modeling the zillow data using five features (bathrooms, bedrooms, total l
 - Is there positive correlation between tax value of single family residential property and pools?
 - Is there positive correlation between tax value of single family residential property and garage area?
 - Is there positive correlation between tax value of single family residential property and lot size?
-- - Is there negative correlation between tax value of single family residential property and age of house?
+- Is there negative correlation between tax value of single family residential property and age of house?
 
 
 # Data dictionary
