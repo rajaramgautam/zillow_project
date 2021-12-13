@@ -33,7 +33,7 @@ After modeling the zillow data using five features (bathrooms, bedrooms, total l
 - Is there negative correlation between tax value of single family residential property and age of house?
 
 # Data dictionary
-|Index | Column Name | Description | Count | Dtype|
+|Index | Column Name | Description 
 |---|---|---|---|---|
 |0 |  bedrooms          | Number of Bedrooms                                 
 |1 |  bathrooms         | Number of bathrooms                                
