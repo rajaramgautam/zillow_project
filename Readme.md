@@ -35,19 +35,19 @@ After modeling the zillow data using five features (bathrooms, bedrooms, total l
 # Data dictionary
 |Index | Column Name | Description | Count | Dtype|
 |---|---|---|---|---|
-|0 |  bedrooms          | Number of Bedrooms                                 | 27363 non-null | int64  |
-|1 |  bathrooms         | Number of bathrooms                                | 27363 non-null | float64|
-|2 |  sqft              | Square footage of the house                        | 27363 non-null | int64  |
-|3 |  tax_value         | Value of the property                              | 27363 non-null | float64|
-|4 |  year_built        | Year property was built                            | 27363 non-null | int64  |
-|5 |  tax_amount        | Tax amount per property                            | 27363 non-null | float64|
-|6 |  fips              | Federal Information Processing Series (FIPS) Codes | 27363 non-null | int64  |
-|7 |  zipcode           | Zipcode                                            | 27363 non-null | int64  |
-|8 |  zipcode_avg_price | Average home price per zipcode                     | 27363 non-null | int64  |
-|9 |  county            | County Name                                        | 27363 non-null | object |
-|10|  state             | State Name                                         | 27363 non-null | object |
-|11|  garage_area       | Area of Garage                                     | 27363 non-null | int64  |
-|12 |  transactiondate.  | Transaction date for the property                 | 27363 non-null | int64  |
+|0 |  bedrooms          | Number of Bedrooms                                 
+|1 |  bathrooms         | Number of bathrooms                                
+|2 |  sqft              | Square footage of the house                        
+|3 |  tax_value         | Value of the property                              
+|4 |  year_built        | Year property was built                            
+|5 |  tax_amount        | Tax amount per property                            
+|6 |  fips              | Federal Information Processing Series (FIPS) Codes 
+|7 |  zipcode           | Zipcode                                            
+|8 |  zipcode_avg_price | Average home price per zipcode                     
+|9 |  county            | County Name                                        
+|10|  state             | State Name                                         
+|11|  garage_area       | Area of Garage                                     
+|12 |  transactiondate.  | Transaction date for the property                 
 
 For Full Data Dictionary for Zillow database that we are using here, please download it from my github
 
