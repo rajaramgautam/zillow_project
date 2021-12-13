@@ -34,7 +34,7 @@ After modeling the zillow data using five features (bathrooms, bedrooms, total l
 
 # Data dictionary
 |Index | Column Name | Description 
-|---|---|---|---|---|
+|---|---|---|
 |0 |  bedrooms          | Number of Bedrooms                                 
 |1 |  bathrooms         | Number of bathrooms                                
 |2 |  sqft              | Square footage of the house                        
